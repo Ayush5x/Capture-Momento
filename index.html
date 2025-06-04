@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture Moments Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Capture Moments</h1>
+            <p>Photography</p>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Capturing Your Special Moments</h1>
+            <p>Professional photography for weddings, birthdays, pre-wedding shoots and more</p>
+            <a href="#contact" class="btn">Book a Session</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>We specialize in capturing life's most precious moments</p>
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Wedding Photography">
+                </div>
+                <h3>Wedding Photography</h3>
+                <p>Capture every magical moment of your special day with our professional wedding photography services.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Pre-Wedding Shoots">
+                </div>
+                <h3>Pre-Wedding Shoots</h3>
+                <p>Create beautiful memories before your big day with our stunning pre-wedding photography packages.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Birthday Photography">
+                </div>
+                <h3>Birthday Photography</h3>
+                <p>From cake smashes to milestone celebrations, we'll document your birthday festivities with style.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Family Portraits">
+                </div>
+                <h3>Family Portraits</h3>
+                <p>Timeless family portraits that capture the love and connection between you and your loved ones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="section-header">
+            <h2>Our Gallery</h2>
+            <p>Browse through our portfolio of beautiful moments</p>
+        </div>
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="wedding">Wedding</button>
+            <button class="filter-btn" data-filter="pre-wedding">Pre-Wedding</button>
+            <button class="filter-btn" data-filter="birthday">Birthday</button>
+            <button class="filter-btn" data-filter="family">Family</button>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item wedding">
+                <img src="/placeholder.svg?height=400&width=600" alt="Wedding Photo 1">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Wedding Ceremony</h3>
+                        <p>Sarah & John</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item wedding">
+                <img src="/placeholder.svg?height=400&width=600" alt="Wedding Photo 2">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Wedding Reception</h3>
+                        <p>Emily & Michael</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item pre-wedding">
+                <img src="/placeholder.svg?height=400&width=600" alt="Pre-Wedding Photo 1">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Beach Engagement</h3>
+                        <p>Jessica & David</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item pre-wedding">
+                <img src="/placeholder.svg?height=400&width=600" alt="Pre-Wedding Photo 2">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Garden Engagement</h3>
+                        <p>Lisa & Robert</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item birthday">
+                <img src="/placeholder.svg?height=400&width=600" alt="Birthday Photo 1">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>1st Birthday</h3>
+                        <p>Baby Emma</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item birthday">
+                <img src="/placeholder.svg?height=400&width=600" alt="Birthday Photo 2">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Sweet 16</h3>
+                        <p>Sophia's Celebration</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item family">
+                <img src="/placeholder.svg?height=400&width=600" alt="Family Photo 1">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Family Portrait</h3>
+                        <p>The Johnsons</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item family">
+                <img src="/placeholder.svg?height=400&width=600" alt="Family Photo 2">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Family Outdoor Session</h3>
+                        <p>The Williams</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Us</h2>
+            <p>Learn more about our passion for photography</p>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="/placeholder.svg?height=600&width=500" alt="Photographer">
+            </div>
+            <div class="about-content">
+                <h3>Our Story</h3>
+                <p>Welcome to Capture Moments Photography, where we believe in preserving life's most precious memories through the art of photography. With over 10 years of experience in the industry, our team of professional photographers is dedicated to capturing the essence of your special moments.</p>
+                <p>We specialize in wedding photography, pre-wedding shoots, birthday celebrations, and family portraits. Our approach combines candid shots with carefully composed portraits to tell the complete story of your event.</p>
+                <p>What sets us apart is our attention to detail, our passion for creativity, and our commitment to providing an exceptional experience for every client. We understand that these moments are irreplaceable, and we take pride in documenting them with artistry and care.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h4>500+</h4>
+                        <p>Weddings Covered</p>
+                    </div>
+                    <div class="stat">
+                        <h4>1000+</h4>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h4>10+</h4>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <h2>Client Testimonials</h2>
+            <p>What our clients say about us</p>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"We couldn't be happier with our wedding photos! The team captured every special moment and the photos truly tell the story of our day. Highly recommend!"</p>
+                        <div class="client-info">
+                            <h4>Sarah & John</h4>
+                            <p>Wedding Photography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Our pre-wedding photoshoot was amazing! The photographer made us feel so comfortable and the photos turned out better than we could have imagined."</p>
+                        <div class="client-info">
+                            <h4>Jessica & David</h4>
+                            <p>Pre-Wedding Photography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"The birthday photos of our daughter are absolutely precious. They captured her personality perfectly and gave us memories we'll cherish forever."</p>
+                        <div class="client-info">
+                            <h4>The Andersons</h4>
+                            <p>Birthday Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Get in touch to book your session</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Our Location</h3>
+                        <p>123 Photography Lane, Cityville, State 12345</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <p>(123) 456-7890</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email Address</h3>
+                        <p>info@capturemoments.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 9am - 6pm</p>
+                        <p>Saturday: 10am - 4pm</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="booking-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="wedding">Wedding Photography</option>
+                            <option value="pre-wedding">Pre-Wedding Shoot</option>
+                            <option value="birthday">Birthday Photography</option>
+                            <option value="family">Family Portrait</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Capture Moments</h2>
+                <p>Photography</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Wedding Photography</li>
+                    <li>Pre-Wedding Shoots</li>
+                    <li>Birthday Photography</li>
+                    <li>Family Portraits</li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Capture Moments Photography. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
