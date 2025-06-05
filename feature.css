@@ -1,1 +1,6 @@
 /* adding style to the web  */
+
+body{
+    padding: 0;
+    margin: 0;
+}
